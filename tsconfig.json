@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true // Optional: to suppress errors from node_modules
+  },
+  "include": ["src/**/*", "tests/**/*"], // Include the tests folder
+  "exclude": ["node_modules", "dist"]
+}
